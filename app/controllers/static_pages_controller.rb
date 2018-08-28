@@ -31,6 +31,7 @@ class StaticPagesController < ApplicationController
   end
 
   def dream
+    @contact = Contact.new
   end
 
   def mmc
@@ -46,6 +47,10 @@ class StaticPagesController < ApplicationController
       redirect_back(fallback_location: root_path)
     end
   end
+
+  def destroy
+  end
+
 
   private
 

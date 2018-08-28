@@ -16,6 +16,9 @@ class EmailsController < ApplicationController
     end
   end
 
+  def destroy
+  end
+
   def logged_in?
     if session[:email_id]
       redirect_to(mmc_path)

@@ -840,9 +840,14 @@ footer {
     grid-template-columns: 200px auto;
   }
 
+  .fixed {
+  width: 60%;
+  }
+
   footer {
     padding: 60px 20%;
   }
+ 
 
 
 }

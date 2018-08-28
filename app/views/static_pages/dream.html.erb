@@ -17,7 +17,7 @@
       </header>
 
       <section>
-        <h3 style="text-align: center;">Imagine if we were a <span class="highlight">team</span>..</h3>
+        <h1 style="text-align: center;">Imagine if we were a <span class="highlight">team</span>..</h1>
       </section>
 
      <section class="campaign">
@@ -59,108 +59,7 @@
       
     </section>
 
-    <section class="grey-background" id="contact">
-
-      <h2>CONNECT WITH US</h2>
-
-      <div class="connect-container">
-
-        <div class="button-container">
-          <button class="selected">GET QUOTE</button>
-          <button>GET IN TOUCH</button>
-        </div>
-
-          <div class="get-quote-container">
-
-            <!-- Must wrap this in a form tag... -->
-
-            <div class="form-field">
-              <input class="input-item" type="text" placeholder="Your name..">
-            </div>
-
-            <div class="form-field">
-              <input class="input-item" type="text" placeholder="Your Company..">
-            </div>
-
-            <div class="form-field">
-              <input class="input-item" type="text" placeholder="Your email..">
-            </div>
-
-            <div class="form-field">
-              <input class="input-item" type="text" placeholder="Your website..">
-            </div>
-
-            <div class="form-field">
-              <select class="input-select" id="select-1">
-                <option value="" disabled selected>Select Service</option>
-                <option value="smm">Social Media Marketing</option>
-                <option value="seo">Search Engine Optimization</option>
-                <option value="ppc">Advertising</option>
-                <option value="all">All</option>
-                <option value="web-dev">Web Development</option>
-              </select>
-            </div>
-
-            <div class="form-field">
-              <select class="input-select">
-                <option value="" disabled selected>What's Your Budget?</option>
-                <option value="smm">$500-$1,000</option>
-                <option value="seo">$1,000-$1,500</option>
-                <option value="ppc">$1,500-$2,000</option>
-                <option value="ppc">$2,000+</option>
-              </select>
-            </div>
-
-            <div class="form-field">
-              <textarea class="input-body" type="text" placeholder="Your message.."></textarea>
-            </div>
-
-            <div class="form-field">
-              <button class="submit">GET QUOTE</button>
-            </div>
-
-        </div>
-
-        <div class="get-in-touch-container">
-
-            <div class="form-field">
-              <select class="input-select" id="select-2">
-                <option value="" disabled selected>Select Topic</option>
-                <option value="question">Question</option>
-                <option value="audit">Free Audit</option>
-              </select>
-            </div>
-
-            <div class="form-field">
-              <input class="input-item" type="text" placeholder="Your Name..">
-            </div>
-
-            <div class="form-field">
-              <input class="input-item" type="text" placeholder="Your email..">
-            </div>
-
-            <div class="form-field">
-              <textarea class="input-body" type="text" placeholder="Your message.."></textarea>
-            </div>
-
-            <div class="form-field">
-              <button class="submit">GET IN TOUCH</button>
-            </div>
-
-        </div>
-
-      </div>
-
-      <div class="social-media-container">
-          <ul>
-            <li><i class="fas fa-envelope"></i></li>
-            <li><i class="fab fa-facebook-square"></i></li>
-            <li><i class="fab fa-instagram"></i></li>
-            <li><i class="fab fa-twitter"></i></li>
-          </ul>
-        </div>
-
-    </section>
+    <%= render(partial: 'shared/contactform') %>
 
     <%= render(partial: "shared/footer") %>
 
