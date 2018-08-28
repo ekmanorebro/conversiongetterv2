@@ -96,7 +96,6 @@ textarea:focus {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  grid-gap:;
 }
 
 .up-btn {
@@ -147,7 +146,6 @@ header {
   grid-template-rows: auto;
   padding: 20px 10%;
   grid-gap: 5px;
-  background-color:;
 }
 
 .fixed {
@@ -167,7 +165,6 @@ header {
 figure {
   margin: 0;
   align-self: center;
-  background-color:;
   height: 36px;
 }
 
@@ -177,7 +174,6 @@ figure img {
 }
 
 nav {
-  background-color:;
   align-self: center;
 }
 
@@ -196,7 +192,6 @@ nav ul li {
   padding: 5px;
   color: white;
   font-weight: bold;
-  background-color:;
   cursor: pointer;
 }
 
@@ -243,7 +238,6 @@ nav ul li {
 /* ##### MAIN ##### */
 
 .dual {
-  background-color:;
   padding: 30px 10% 80px 10%;
   display: grid;
   grid-template-columns: auto 350px;
@@ -253,7 +247,6 @@ nav ul li {
 }
 
 .solo {
-  background-color:;
   padding: 40px 10% 50px 10%;
   display: grid;
   grid-template-columns: 1fr;
@@ -263,7 +256,6 @@ nav ul li {
 /* ##### BILLBOARD ##### */
 
 .billboard-container {
-  background-color:;
 }
 
 .billboard-container h1 {
@@ -284,7 +276,6 @@ nav ul li {
 /* ##### OPT-IN ##### */
 
 .optin-container {
-  background-color:;
   align-self: center; 
 
 }
@@ -348,7 +339,6 @@ section h2 {
   grid-template-rows: auto;
   justify-content:space-evenly;
   grid-row-gap: 40px;
-  background-color:;
 }
 
 .item-container .item {
@@ -404,7 +394,6 @@ section h2 {
 /* #####  CONNECT WITH US ##### */
 
   .connect-container {
-    background-color:;
   }
 
   .button-container {
@@ -429,7 +418,6 @@ section h2 {
 
   .get-quote-container {
     display: block;
-    background-color:;
   }
 
   .get-in-touch-container {
@@ -509,19 +497,16 @@ section h2 {
   }
 
 .social-media-container {
-  background-color:;
   text-align: center;
   margin-top: 40px;
 }
 
 .social-media-container ul {
   list-style-type: none;
-  background-color:;
 }
 
 .social-media-container ul li {
   display: inline-block;
-  background-color:;
   font-size: 40px;
   padding: 20px;
   color: #d1d1d1;
@@ -535,7 +520,6 @@ section h2 {
 /* ##### COURSE PREVIEW ##### */
 
 .course-preview-container {
-  background-color:;
   padding: 0 15%;
 
 }
@@ -640,12 +624,10 @@ footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
-  background-color:;
   grid-gap: 20px;
 }
 
 .link-item {
-  background-color:;
   justify-self: center;
   text-align: center;
 }
@@ -694,14 +676,12 @@ footer {
   display: grid;
   grid-template-columns: auto 250px;
   grid-tempate-rows: auto;
-  background-color:;
   grid-gap: 60px;
   justify-content: space-evenly;
   padding: 0 10%;
 }
 
 .service-item {
-  background-color:;
   align-self: center; 
 }
 
@@ -746,14 +726,12 @@ footer {
 
   .service-container {
     display: grid;
-    background-color:;
     grid-template-columns: 100% 0%;
     padding: 0;
     grid-gap: 0;
   }
 
   .service-item {
-    background-color:;
   }
 
   .service-item img {
@@ -801,14 +779,12 @@ footer {
 
   .service-container {
     display: grid;
-    background-color:;
     grid-template-columns: 100% 0%;
     padding: 0;
     grid-gap: 0;
   }
 
   .service-item {
-    background-color:;
   }
 
   .service-item img {
