@@ -1,0 +1,63 @@
+<section class="grey-background" id="contact">
+
+      <h2>CONNECT WITH US</h2>
+
+        <div class="get-quote-container">
+
+           <%= form_for(@contact, url: create_contact_path) do |f| %>
+           
+           <div class="form-field">
+              <select name="contact[subject]" class="lead-select" id="select-subject"">
+                <option value="" disabled selected>Select Subject</option>
+                <option value="quote">Get Quote</option>
+                <option value="audit">Free Audit</option>
+                <option value="question">Question</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <%= f.text_field(:name, class: 'input-item', placeholder: "Your name..") %>
+            </div>
+            <div class="form-field">
+             <%= f.text_field(:email, class: 'input-item', placeholder: "Your email..") %>
+            </div>
+             <div class="form-field">
+              <select name="contact[service]" class="input-select" id="select-service">
+                <option value="" disabled selected>Select Service</option>
+                <option value="smm">Social Media Marketing</option>
+                <option value="seo">Search Engine Optimization</option>
+                <option value="ppc">Advertising</option>
+                <option value="all">All</option>
+                <option value="web-dev">Web Development</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <select name="contact[budget]" class="input-select" id="select-budget">
+                <option value="" disabled selected>What's Your Budget?</option>
+                <option value="500">$500-$1,000</option>
+                <option value="1000">$1,000-$1,500</option>
+                <option value="1500">$1,500-$2,000</option>
+                <option value="2000">$2,000+</option>
+              </select>
+            </div>
+            <div class="form-field">
+             <%= f.text_area(:body, class: 'input-body', placeholder: "Your message..") %>
+            </div>
+            <div class="form-field">
+             <%= f.submit("Send", class: 'submit') %>
+           </div>
+           <% end %>   
+
+        </div>
+
+        <div class="social-media-container">
+          <ul>
+            <li><i class="fas fa-envelope"></i></li>
+            <li><i class="fab fa-facebook-square"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+          </ul>
+      </div>  
+
+    </section>
