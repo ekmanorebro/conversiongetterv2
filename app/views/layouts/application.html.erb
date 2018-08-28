@@ -7,9 +7,18 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
   </head>
 
   <body>
+    <% if flash[:notice] %>
+      <div class="notice"><%= flash[:notice] %><span class="close" style="margin-left: 5px; cursor: pointer;">[x]</span></div>
+    <% end %>
+    <% if flash[:success] %>
+      <div class="success"><%= flash[:success] %><span class="close" style="margin-left: 5px; cursor: pointer;">[x]</span></div>
+    <% end %>
     <%= yield %>
   </body>
 </html>

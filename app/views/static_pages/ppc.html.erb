@@ -1,2 +1,125 @@
-<h1>StaticPages#ppc</h1>
-<p>Find me in app/views/static_pages/ppc.html.erb</p>
+  <div class="container">
+
+      <header class="blue-background">
+        <figure>
+          <a href="<%= root_path %>"><%= image_tag("conversion-getter-logo.png") %></a>
+        </figure>
+        <nav>
+          <ul>
+            <li><a href="<%= root_path %>">HOME</a></li>
+            <li><a href="/#services">SERVICES</a></li>
+            <li id="contact-link">CONTACT</li>
+            <li><a href="<%= mm_path %>"><button class="m-m-btn">MODERN MARKETING</button></a></li>
+            <li><button class="quote-btn">GET QUOTE</button></li>
+          </ul>
+        </nav>  
+      </header>
+    
+      <section class="social-media-presentation">
+
+        <h2>Why Do You Need an Advertising Expert?</h2>
+
+        <p>If you are an inexperienced advertiser, it will be difficult to create a profitable advertising campaign. First of all, you lack the experience to know what works. Secondly, you don’t not know what it takes to build a funnel that converts.</p>
+        
+        <p>At conversiongetter, we build funnels with measurable steps, designed to build the tension people should feel from the absence of your product/service.</p>
+
+        <p>To move people through our funnels, we incorporate advertising, lead magnets, landing pages, retargeting, and email marketing. Each campaign is carefully planned, analyzed, and optimized to get the best possible result at the lowest cost.</p>
+
+        <button class="quote-btn">GET QUOTE</button>
+        <button class="our-process-btn">OUR PROCESS</button>
+        
+
+      </section>
+
+
+      <section class="grey-background" id="our-process">
+
+        <h2>ADVERTISING</h2>
+        <h3 class="subheadline">OUR PROCESS</h3>
+     
+      <div class="item-container">
+     
+        <div class="item center-item">
+          <i class="fas fa-clipboard-list"></i>
+          <h3>PREPARATIONS</h3>
+          <p>Before we build a funnel, we'll set a clear objective for the advertising campaign. We'll also define the personas of the people that you seek to serve. These are things we’ll agree on in the marketing plan.</p>
+        </div>
+      
+        <div class="item center-item">
+          <i class="fas fa-filter"></i>
+          <h3>FUNNEL</h3>
+          <p>We'll build a funnel with measurable steps designed to convert the people that you seek to serve. By creating a funnel, we’ll have a clear strategic overview of the marketing activities we'll seek to turn a stranger into a customer.</p>
+        </div>
+
+        <div class="item center-item">
+          <i class="fas fa-paint-brush"></i>
+          <h3>AD CREATION</h3>
+          <p>We'll create compelling copy that resonates with the people that you seek to serve and couple it with an image/video that will reinforce the message we want to convey.</p>
+        </div>
+
+        <div class="item center-item">
+          <i class="fas fa-magnet"></i>
+          <h3>LEAD MAGNET</h3>
+          <p>If you have an expensive or complicated offer that requires a lot of convincing or education, we’ll create a lead magnet to get potential customers on your email list, so that we can build the tension needed to sell your product/service.</p>
+        </div>
+      
+        <div class="item center-item">
+          <i class="fas fa-code"></i>
+          <h3>LANDING PAGE</h3>
+          <p>We’ll create beautiful landing pages that are designed to make people take action that we seek.</p>
+        </div>
+
+        <div class="item center-item">
+          <i class="fas fa-envelope"></i>
+          <h3>EMAIL MARKETING</h3>
+          <p>We’ll create campaigns with emails that build the tension needed for people to take action. We’ll run these campaigns simultaneously with retargeting ads, to increase the exposure of your offer during the crucial decision stage of the funnel.</p>
+        </div>
+
+        <div class="item center-item">
+          <i class="fas fa-rocket"></i>
+          <h3>LAUNCH</h3>
+          <p>The key of building a successful advertising campaign is to test, test, and test. We’ll start small, and when we find what resonates with the audience we’re targeting — we’ll scale.</p>
+        </div>
+
+        <div class="item center-item">
+          <i class="fas fa-chart-line"></i>
+          <h3>OPTIMIZE</h3>
+          <p>Each advertising campaign is carefully planned, analyzed, and optimized to get the best possible result at the lowest cost.</p>
+        </div>
+
+      </div>
+
+      </section>
+
+      <section>
+      <h2>WHY US?</h2>
+      
+      <div class="item-container">
+
+        <div class="item center-item">
+          <i class="fas fa-bullseye"></i>
+          <h3>We Are Modern Marketers</h3>
+          <p>We dive deep to understand your position in the marketplace and why people should feel the need to buy your product/service. We’re determined to cement this position of your brand in the minds of the people that you seek to serve and build the tension needed for them to take action.</p>
+        </div>
+
+        <div class="item center-item">
+          <i class="fas fa-lightbulb"></i>
+          <h3>We Are Innovative Marketers</h3>
+          <p>We constantly seek new, better, and more efficient ways to reach the people that you seek to serve. By combining best practices and being at the forefront when it comes to the latest most innovative marketing strategies, we’ll give your brand the best opportunity to grow and reach new heights.</p>
+        </div>
+
+        <div class="item center-item">
+          <i class="fas fa-heart"></i>
+          <h3>We are Transparent Marketers</h3>
+          <p>Our goal is to be as transparent and receptive as possible with our clients. To do that, we’ll create a marketing plan that will include the goals we agree on, the strategies we’ll use to achieve them, and the metrics we’ll use to measure the performance of our marketing efforts.</p>
+        </div>
+
+      </div>
+      
+    </section>
+
+    <%= render(partial: 'shared/contactform') %>
+
+    <%= render(partial: "shared/footer") %>
+
+  </div>

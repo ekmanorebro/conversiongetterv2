@@ -1,2 +1,127 @@
-<h1>StaticPages#smm</h1>
-<p>Find me in app/views/static_pages/smm.html.erb</p>
+    <div class="container">
+
+      <header class="blue-background">
+        <figure>
+          <a href="<%= root_path %>"><%= image_tag("conversion-getter-logo.png") %></a>
+        </figure>
+        <nav>
+          <ul>
+            <li><a href="<%= root_path %>">HOME</a></li>
+            <li><a href="/#services">SERVICES</a></li>
+            <li id="contact-link">CONTACT</li>
+            <li><a href="<%= mm_path %>"><button class="m-m-btn">MODERN MARKETING</button></a></li>
+            <li><button class="quote-btn">GET QUOTE</button></li>
+          </ul>
+        </nav>  
+      </header>
+
+      <!-- Possible main here with either login information or a did you know we offer marketing services ... read more -->
+    
+      <section class="social-media-presentation">
+
+        <h2>Why Do You Need a Social Media Expert?</h2>
+
+        <p>There is a lot more to social media marketing than mindlessly posting a couple of posts irregularly. Social media marketing is about establishing a brand in the minds of the people that you seek to serve.</p>
+        
+        <p>Essentially, your social media presence is the face and the voice of your brand. Therefore, it’s extremely important how you present yourself and what story you tell because that is the perception people will have of your brand.</p>
+
+        <p>Besides using social media for branding purposes, it’s also a great way to drive business (if done right). Unfortunately, most companies make the mistake of promoting too aggressively — which will have the opposite effect.</p>
+        
+        <p>To do social media marketing the right way, the way that builds your brand and ultimately resonates with the people that you seek to serve — you need a well-thought-out strategy.</p>
+
+
+        <button class="quote-btn">GET QUOTE</button>
+        <button class="our-process-btn">OUR PROCESS</button>
+
+
+      </section>
+
+
+      <section class="grey-background" id="our-process">
+
+        <h2>SOCIAL MEDIA MANAGEMENT</h2>
+        <h3 class="subheadline">OUR PROCESS</h3>
+     
+      <div class="item-container">
+     
+        <div class="item center-item">
+          <i class="fas fa-stethoscope"></i>
+          <h3>SOCIAL MEDIA AUDIT</h3>
+          <p>We’ll begin with a social media audit to see the condition of your current social media presence.</p>
+        </div>
+      
+        <div class="item center-item">
+          <i class="fas fa-fingerprint"></i>
+          <h3>BRANDING</h3>
+          <p>We’ll make sure that all of your social media accounts are communicating the position you want to claim or reinforce in the marketplace that you operate within.</p>
+        </div>
+      
+        <div class="item center-item">
+          <i class="fas fa-search"></i>
+          <h3>MARKET RESEARCH</h3>
+          <p>We’ll analyze the marketplace by looking at your competitors and the people that you seek to serve. This will help us understand how we should structure our content strategy.</p>
+        </div>
+
+        <div class="item center-item">
+          <i class="fas fa-pen"></i>
+          <h3>CONTENT CREATION</h3>
+          <p>We’ll have brainstorm sessions where we come up with content to tell the story of your brand. At the same time, providing a good ratio between valuable and promotional content.</p>
+        </div>
+
+        <div class="item center-item">
+          <i class="fas fa-clock"></i>
+          <h3>SCHEDULE CONTENT</h3>
+          <p>We’ll schedule content to make sure that we post frequently and thus stay top-of-mind of the people that you seek to serve.</p>
+        </div>
+
+        <div class="item center-item">
+          <i class="fas fa-star"></i>
+          <h3>REPUTATION MANAGEMENT</h3>
+          <p>We’ll tune in our listening tools to listen for mentions associated with your business. This will allow us to manage your reputation, stay on top of customer service, and to find opportunity for new business.</p>
+        </div>
+
+        <div class="item center-item">
+          <i class="fas fa-chart-line"></i>
+          <h3>OPTIMIZE</h3>
+          <p>We’ll carefully measure and analyze data from every post we publish. When we have gathered a sufficient amount of data, we’ll know what type of content that resonates best, with the people that you seek to serve.</p>
+        </div>
+  
+
+      </div>
+
+      </section>
+
+
+      <section>
+      
+      <h2>WHY US?</h2>
+      
+      <div class="item-container">
+
+        <div class="item center-item">
+          <i class="fas fa-bullseye"></i>
+          <h3>We Are Modern Marketers</h3>
+          <p>We dive deep to understand your position in the marketplace and why people should feel the need to buy your product/service. We’re determined to cement this position of your brand in the minds of the people that you seek to serve and build the tension needed for them to take action.</p>
+        </div>
+
+        <div class="item center-item">
+          <i class="fas fa-lightbulb"></i>
+          <h3>We Are Innovative Marketers</h3>
+          <p>We constantly seek new, better, and more efficient ways to reach the people that you seek to serve. By combining best practices and being at the forefront when it comes to the latest most innovative marketing strategies, we’ll give your brand the best opportunity to grow and reach new heights.</p>
+        </div>
+
+        <div class="item center-item">
+          <i class="fas fa-heart"></i>
+          <h3>We are Transparent Marketers</h3>
+          <p>Our goal is to be as transparent and receptive as possible with our clients. To do that, we’ll create a marketing plan that will include the goals we agree on, the strategies we’ll use to achieve them, and the metrics we’ll use to measure the performance of our marketing efforts.</p>
+        </div>
+
+      </div>
+      
+    </section>
+
+    <%= render(partial: 'shared/contactform') %>
+
+    <%= render(partial: "shared/footer") %>
+
+  </div>

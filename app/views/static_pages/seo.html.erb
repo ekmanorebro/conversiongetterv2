@@ -1,2 +1,127 @@
-<h1>StaticPages#seo</h1>
-<p>Find me in app/views/static_pages/seo.html.erb</p>
+  <div class="container">
+
+      <header class="blue-background">
+        <figure>
+          <a href="<%= root_path %>"><%= image_tag("conversion-getter-logo.png") %></a>
+        </figure>
+        <nav>
+          <ul>
+            <li><a href="<%= root_path %>">HOME</a></li>
+            <li><a href="/#services">SERVICES</a></li>
+            <li id="contact-link">CONTACT</li>
+            <li><a href="<%= mm_path %>"><button class="m-m-btn">MODERN MARKETING</button></a></li>
+            <li><button class="quote-btn">GET QUOTE</button></li>
+          </ul>
+        </nav>  
+      </header>
+
+      <!-- Possible main here with either login information or a did you know we offer marketing services ... read more -->
+
+    
+      <section class="social-media-presentation">
+
+        <h2>Why Do You Need an SEO Expert?</h2>
+
+        <p>At this very moment, it’s likely that your competitors are ranking for the most attractive keywords in the search engines. As a result, they get a lot of “free” customers that could have been yours instead.</p>
+
+        <p>From your perspective, that’s lost business. Our goal is to change that.</p>
+
+        <p>However, beware that performing SEO is an ongoing process that takes time and requires a lot of patience. You won’t get results over night, and you should be thrilled if the needle moves during the first month.</p>
+
+        <p>That is the current state of SEO, with the vast amount of players that are looking to rank for a particular keyword just as yourself.</p>
+
+        <p>Depending on the keyword competition, you could expect to get results within 3 months, and that is 3 months of hard work. There are no cheap tricks or shortcuts. When you get good rankings, it's well worth the investment.</p>
+
+
+        <button class="quote-btn">GET QUOTE</button>
+        <button class="our-process-btn">OUR PROCESS</button>
+        
+
+      </section>
+
+
+      <section class="grey-background" id="our-process">
+
+        <h2>SEARCH-ENGINE-OPTIMIZATION</h2>
+        <h3 class="subheadline">OUR PROCESS</h3>
+     
+      <div class="item-container">
+     
+        <div class="item center-item">
+          <i class="fas fa-stethoscope"></i>
+          <h3>WEBSITE AUDIT</h3>
+          <p>Before we get to work, we’ll examine your website to see what has been done. We’ll look at what keywords you're currently ranking for, and whether we should improve your website.</p>
+        </div>
+      
+        <div class="item center-item">
+          <i class="fas fa-search"></i>
+          <h3>KEYWORD RESEARCH</h3>
+          <p>We’ll perform in-depth keyword research to find the most attractive keywords in your marketplace.</p>
+        </div>
+
+        <div class="item center-item">
+          <i class="fas fa-flask"></i>
+          <h3>ANALYZE COMPETITON</h3>
+          <p>In order to rank high for a particular keyword, we must understand what we are up against.</p>
+        </div>
+      
+        <div class="item center-item">
+          <i class="fas fa-pen"></i>
+          <h3>CONTENT CREATION</h3>
+          <p>When we know what it takes to rank high for a particular keyword, we’ll create content that will provide a better answer to the keywords we're targeting.</p>
+        </div>
+
+        <div class="item center-item">
+          <i class="fas fa-code"></i>
+          <h3>ON-PAGE OPTIMIZATION</h3>
+          <p>To give Google and other search engines a hint of what keywords we’re targeting, we’ll optimize every page on your website around these keywords.</p>
+        </div>
+
+        <div class="item center-item">
+          <i class="fas fa-link"></i>
+          <h3>OFF-PAGE OPTIMIZATION</h3>
+          <p>To give your rankings that last push that is often necessary to rank high, we’ll build relevant, high-quality backlinks.</p>
+        </div>
+
+        <div class="item center-item">
+          <i class="fas fa-chart-line"></i>
+          <h3>OPTIMIZE</h3>
+          <p>We’ll constantly measure, analyze, and optimize, to give you the best chance of ranking high for attractive keywords that will raise brand awareness and ultimately bring you business.</p>
+        </div>
+
+      </div>
+
+      </section>
+
+      <section>
+      <h2>WHY US?</h2>
+      
+      <div class="item-container">
+
+        <div class="item center-item">
+          <i class="fas fa-bullseye"></i>
+          <h3>We Are Modern Marketers</h3>
+          <p>We dive deep to understand your position in the marketplace and why people should feel the need to buy your product/service. We’re determined to cement this position of your brand in the minds of the people that you seek to serve and build the tension needed for them to take action.</p>
+        </div>
+
+        <div class="item center-item">
+          <i class="fas fa-lightbulb"></i>
+          <h3>We Are Innovative Marketers</h3>
+          <p>We constantly seek new, better, and more efficient ways to reach the people that you seek to serve. By combining best practices and being at the forefront when it comes to the latest most innovative marketing strategies, we’ll give your brand the best opportunity to grow and reach new heights.</p>
+        </div>
+
+        <div class="item center-item">
+          <i class="fas fa-heart"></i>
+          <h3>We are Transparent Marketers</h3>
+          <p>Our goal is to be as transparent and receptive as possible with our clients. To do that, we’ll create a marketing plan that will include the goals we agree on, the strategies we’ll use to achieve them, and the metrics we’ll use to measure the performance of our marketing efforts.</p>
+        </div>
+
+      </div>
+      
+    </section>
+
+      <%= render(partial: 'shared/contactform') %>
+
+    <%= render(partial: "shared/footer") %>
+
+  </div>
