@@ -1,2 +1,105 @@
-<h1>StaticPages#special</h1>
-<p>Find me in app/views/static_pages/special.html.erb</p>
+  <div class="container">     
+    <div class="big-header">
+      
+      <header>
+        <figure>
+          <a href="<%= root_path %>"><%= image_tag("conversion-getter-logo.png") %></a>
+        </figure>
+        <nav>
+          <ul>
+            <li><a href="<%= root_path %>">HOME</a></li>
+            <li id="services-link">SERVICES</li>
+            <li id="contact-link">CONTACT</li>
+            <li><a href="<%= mm_path %>"><button class="m-m-btn">MODERN MARKETING</button></a></li>
+            <li><button class="quote-btn">GET QUOTE</button></li>
+          </ul>
+        </nav>  
+      </header>
+
+      <main class="solo">
+        <div class="billboard-container center">
+          <h1><span class="highlight">SPECIAL:</span> GET OUR 3 MAIN MARKETING<br> SERVICES FOR THE PRICE OF 1.</h1>
+          <button class="quote-btn">GET QUOTE</button>
+          <button class="audit-btn">FREE AUDIT</button>
+        </div>
+      </main>
+
+    </div>
+      
+    <section class="grey-background" id="services">
+        <div class="service-container">
+          <div class="service-item">
+            <h4>SERVICE #1</h4>
+            <h2>ADVERTISING</h2>
+             <p>We help place your offer in front of the right people, with a strategy that is designed to build the tension people should feel from the absence of your product/service.</p>
+             <button class="quote-btn">GET QUOTE</button>
+            <a href="<%= advertising_path %>"><button class="read-more-btn">READ MORE</button></a>
+          </div>
+          <div class="service-item">
+            <%= image_tag("ppc-special.png") %>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="service-container">
+          <div class="service-item">
+            <h4>SERVICE #2</h4>
+            <h2>SOCIAL MEDIA<BR>MANAGEMENT</h2>
+            <p>We help manage your social media accounts and by doing so we'll build brand awareness, and drive business — while you focus on operating your business.</p>
+            <button class="quote-btn">GET QUOTE</button>
+            <a href="<%= smm_path %>"><button class="read-more-btn">READ MORE</button></a>
+          </div>
+          <div class="service-item">
+            <%= image_tag("smm-special.png") %>
+          </div>
+        </div>
+      </section>
+
+      <section class="grey-background">
+        <div class="service-container">
+          <div class="service-item">
+            <h4>SERVICE #3</h4>
+            <h2>SEARCH-ENGINE-<BR>OPTIMIZATION</h2>
+            <p>We help optimize your website and build high-quality backlinks to increase your rankings in search engines to help people find your business organically.</p>
+            <button class="quote-btn">GET QUOTE</button>
+            <a href="<%= seo_path %>"><button class="read-more-btn">READ MORE</button></a>
+          </div>
+          <div class="service-item">
+            <%= image_tag("seo-special.png") %>
+          </div>
+        </div>
+      </section>
+
+    <section>
+      <h2>WHY US?</h2>
+      
+      <div class="item-container">
+
+        <div class="item center-item">
+          <i class="fas fa-bullseye"></i>
+          <h3>We Are Modern Marketers</h3>
+          <p>We dive deep to understand your position in the marketplace and why people should feel the need to buy your product/service. We’re determined to cement this position of your brand in the minds of the people that you seek to serve and build the tension needed for them to take action.</p>
+        </div>
+
+        <div class="item center-item">
+          <i class="fas fa-lightbulb"></i>
+          <h3>We Are Innovative Marketers</h3>
+          <p>We constantly seek new, better, and more efficient ways to reach the people that you seek to serve. By combining best practices and being at the forefront when it comes to the latest most innovative marketing strategies, we’ll give your brand the best opportunity to grow and reach new heights.</p>
+        </div>
+
+        <div class="item center-item">
+          <i class="fas fa-heart"></i>
+          <h3>We are Transparent Marketers</h3>
+          <p>Our goal is to be as transparent and receptive as possible with our clients. To do that, we’ll create a marketing plan that will include the goals we agree on, the strategies we’ll use to achieve them, and the metrics we’ll use to measure the performance of our marketing efforts.</p>
+        </div>
+
+      </div>
+      
+    </section>
+
+    <%= render(partial: 'shared/contactform') %>
+
+<%= render(partial: "shared/footer") %>
+
+  </div>

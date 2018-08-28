@@ -1,2 +1,64 @@
-<h1>StaticPages#terms</h1>
-<p>Find me in app/views/static_pages/terms.html.erb</p>
+
+  <div class="container">
+    <div class="big-header">
+      
+      <header>
+        <figure>
+          <a href="<%= root_path %>"><%= image_tag("conversion-getter-logo.png") %></a>
+        </figure>
+        <nav>
+          <ul>
+            <li><a href="<%= root_path %>">HOME</a></li>
+            <li><a href="/#services">SERVICES</a></li>
+            <li id="contact-link">CONTACT</li>
+            <li><a href="<%= mm_path %>"><button class="m-m-btn">MODERN MARKETING</button></a></li>
+            <li><button class="quote-btn">GET QUOTE</button></li>
+          </ul>
+        </nav>  
+      </header>
+
+    <section>
+
+    <p>These Terms and Conditions are intended to detail our obligations to you regarding our site as well as inform you of the rules and regulations of conversiongetter, LLC. By using this site (conversiongetter.com), you agree to these Terms and Conditions, and as such we strongly encourage our visitors to read through this content regularly to stay informed of this disclaimer and any change to our Terms and Conditions. In the following Terms and Conditions, “we, us, and site” are used to refer to conversiongetter, LLC.</p>
+
+    <h2>Use of Our Website</h2>
+
+    <p>You are permitted to use this site for you own purposes to print, download, and share material provided you do not modify any content without our explicit consent. Material on this website may not be republished online or offline without our permission. The copyright and all intellectual property rights of the material on this site are owned by conversiongetter, LLC and may not be reproduced without our prior consent.</p>
+
+    <p>The information contained in this website is for general information purposes only. While we endeavor to keep the information up-to-date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is strictly at your own risk.</p>
+
+    <h2>Visitor Conduct</h2>
+
+    <p>With the exception of personal information (the use of which is covered under our Privacy Policy), any material you send or post to this write shall be considered non-proprietary and not confidential. Unless you advise to the contrary, we remain free to copy, disclose, distribute, incorporate and otherwise use such material for any and all purposes.</p>
+
+    <p>When using the site, please do not post or send any material for which you have not obtained all necessary consents or that which is discriminatory, obscene, pornographic, defamatory, liable to incite racial hatred, in breach of confidentiality or privacy to or from this site, which may cause annoyance or inconvenience to others, which encourages or constitutes conduct that would be deemed a criminal offence, give rise to a civil liability, or otherwise is contrary to the law of the United States of America.</p>
+
+    <h2>Site Activity</h2>
+
+    <p>We take the utmost care to ensure that this site is available 24/7, 365 days per year. However, websites do sometimes encounter downtime due to server or technical issues. We are not be liable if this website is unavailable at any time.</p>
+
+    <h2>Links to and from other Websites</h2>
+
+    <p>In order to provide additional information or services, conversiongetter, LLC may include links to external websites. Clicking on such a link will navigate you away from conversiongetter’s site. The inclusion of links does not necessarily imply a recommendation, nor does it in any way endorse the views expressed within them. Other site’s Terms and Conditions may differ from our own. When clicking off the conversiongetter, LLC site, we strongly encourage you to visit the other site’s Terms and Conditions to ensure it meets the standards of your own personal preferences.</p>
+
+    <h2>Exclusion of Liability</h2>
+
+    <p>In no event will conversiongetter, LLC be held liable for any loss or damage of information including but not limited to indirect or consequential loss or damage, loss or damage of data, or profits arising out of or in connection with the use of this website. conversiongetter, LLC may not be held liable or responsible in any way for loss or damage that may result to you or a third party as a result of your use of our website.</p>
+
+    <p>We take the utmost measures to ensure that the information provided on this site is correct, however; we do not make any guarantees regarding that information. This exclusion shall include servicing or repair costs and, without limitation, any other direct, indirect or consequential loss.</p>
+
+    <h2>Governing Law</h2>
+
+    <p>These legal Terms and Conditions apply for all issues regarding this website shall be governed by the laws of the United States of America and in the state of New Mexico or the appropriate defending country.</p>
+
+    <h2>Contacting us</h2>
+
+    <p>If you have any questions regarding our Terms and Conditions or your dealings with conversiongetter.com, please contact through our contact form.</p>
+    </section>  
+
+    <%= render(partial: 'shared/contactform') %>
+
+
+    <%= render(partial: "shared/footer") %>
+
+  </div>

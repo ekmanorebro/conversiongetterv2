@@ -1,2 +1,167 @@
-<h1>StaticPages#dream</h1>
-<p>Find me in app/views/static_pages/dream.html.erb</p>
+
+  <div class="container">
+      
+      <header class="blue-background">
+        <figure>
+          <a href="<%= root_path %>"><%= image_tag("conversion-getter-logo.png") %></a>
+        </figure>
+        <nav>
+          <ul>
+            <li><a href="<%= root_path %>">HOME</a></li>
+            <li><a href="/#servies">SERVICES</a></li>
+            <li id="contact-link">CONTACT</li>
+            <li><a href="<%= mm_path %>"><button class="m-m-btn">MODERN MARKETING</button></a></li>
+            <li><button class="quote-btn">GET QUOTE</button></li>
+          </ul>
+        </nav>  
+      </header>
+
+      <section class="grey-background">
+        <h2 style="margin:0;">To <span class="highlight">dream</span> is to imagine, let's take that journey <span class="highlight">together</span>.</h2>
+      </section>
+
+     <section class="campaign">
+      <div class="campaign-container">
+        <%= image_tag("imagine-us-as-a-team.png") %>
+      </div>
+    </section> 
+
+    <section class="grey-background">
+      <h2>We turn dreams into reality.</h2>
+      <center><button class="quote-btn">GET QUOTE</button></center>
+    </section>
+    
+
+    <section>
+      <h2>WHY US?</h2>
+      
+      <div class="item-container">
+
+        <div class="item center-item">
+          <i class="fas fa-bullseye"></i>
+          <h3>We Are Modern Marketers</h3>
+          <p>We dive deep to understand your position in the marketplace and why people should feel the need to buy your product/service. We’re determined to cement this position of your brand in the minds of the people that you seek to serve and build the tension needed for them to take action.</p>
+        </div>
+
+        <div class="item center-item">
+          <i class="fas fa-lightbulb"></i>
+          <h3>We Are Innovative Marketers</h3>
+          <p>We constantly seek new, better, and more efficient ways to reach the people that you seek to serve. By combining best practices and being at the forefront when it comes to the latest most innovative marketing strategies, we’ll give your brand the best opportunity to grow and reach new heights.</p>
+        </div>
+
+        <div class="item center-item">
+          <i class="fas fa-heart"></i>
+          <h3>We are Transparent Marketers</h3>
+          <p>Our goal is to be as transparent and receptive as possible with our clients. To do that, we’ll create a marketing plan that will include the goals we agree on, the strategies we’ll use to achieve them, and the metrics we’ll use to measure the performance of our marketing efforts.</p>
+        </div>
+
+      </div>
+      
+    </section>
+
+    <section class="grey-background" id="contact">
+
+      <h2>CONNECT WITH US</h2>
+
+      <div class="connect-container">
+
+        <div class="button-container">
+          <button class="selected">GET QUOTE</button>
+          <button>GET IN TOUCH</button>
+        </div>
+
+          <div class="get-quote-container">
+
+            <!-- Must wrap this in a form tag... -->
+
+            <div class="form-field">
+              <input class="input-item" type="text" placeholder="Your name..">
+            </div>
+
+            <div class="form-field">
+              <input class="input-item" type="text" placeholder="Your Company..">
+            </div>
+
+            <div class="form-field">
+              <input class="input-item" type="text" placeholder="Your email..">
+            </div>
+
+            <div class="form-field">
+              <input class="input-item" type="text" placeholder="Your website..">
+            </div>
+
+            <div class="form-field">
+              <select class="input-select" id="select-1">
+                <option value="" disabled selected>Select Service</option>
+                <option value="smm">Social Media Marketing</option>
+                <option value="seo">Search Engine Optimization</option>
+                <option value="ppc">Advertising</option>
+                <option value="all">All</option>
+                <option value="web-dev">Web Development</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <select class="input-select">
+                <option value="" disabled selected>What's Your Budget?</option>
+                <option value="smm">$500-$1,000</option>
+                <option value="seo">$1,000-$1,500</option>
+                <option value="ppc">$1,500-$2,000</option>
+                <option value="ppc">$2,000+</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <textarea class="input-body" type="text" placeholder="Your message.."></textarea>
+            </div>
+
+            <div class="form-field">
+              <button class="submit">GET QUOTE</button>
+            </div>
+
+        </div>
+
+        <div class="get-in-touch-container">
+
+            <div class="form-field">
+              <select class="input-select" id="select-2">
+                <option value="" disabled selected>Select Topic</option>
+                <option value="question">Question</option>
+                <option value="audit">Free Audit</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <input class="input-item" type="text" placeholder="Your Name..">
+            </div>
+
+            <div class="form-field">
+              <input class="input-item" type="text" placeholder="Your email..">
+            </div>
+
+            <div class="form-field">
+              <textarea class="input-body" type="text" placeholder="Your message.."></textarea>
+            </div>
+
+            <div class="form-field">
+              <button class="submit">GET IN TOUCH</button>
+            </div>
+
+        </div>
+
+      </div>
+
+      <div class="social-media-container">
+          <ul>
+            <li><i class="fas fa-envelope"></i></li>
+            <li><i class="fab fa-facebook-square"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+          </ul>
+        </div>
+
+    </section>
+
+    <%= render(partial: "shared/footer") %>
+
+  </div>
