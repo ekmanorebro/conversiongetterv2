@@ -35,6 +35,7 @@
             <div class="form-field">
               <select name="contact[budget]" class="input-select" id="select-budget">
                 <option value="" disabled selected>What's Your Budget?</option>
+                <option value="unsure">Not Sure</option>
                 <option value="500">$500-$1,000</option>
                 <option value="1000">$1,000-$1,500</option>
                 <option value="1500">$1,500-$2,000</option>
@@ -45,7 +46,7 @@
              <%= f.text_area(:body, class: 'input-body', placeholder: "Your message..") %>
             </div>
             <div class="form-field">
-             <%= f.submit("Send", class: 'submit') %>
+             <%= f.submit("SEND", class: 'submit') %>
            </div>
            <% end %>   
 

@@ -199,6 +199,7 @@ nav ul li {
 
 .m-m-btn {
   border-radius: 20px;
+  background-color: white;
 }
 
 .m-m-btn a {
@@ -261,7 +262,7 @@ nav ul li {
 .billboard-container h1 {
   color: white;
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .billboard-container h3 {
@@ -277,8 +278,8 @@ nav ul li {
 
 .optin-container {
   align-self: center; 
-
 }
+
 .input {
   padding: 20px;
   box-sizing: border-box;
