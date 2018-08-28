@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  
   devise_for :admins, path: '', path_names: { sign_in: 'login', sign_out: 'logout' }
 
   get 'admin', to: 'admins#index'
@@ -20,4 +19,6 @@ Rails.application.routes.draw do
 
   get '/modern-marketing', to: 'emails#new', as: 'mm'
   post '/modern-marketing', to: 'emails#create', as: 'create_email'
+
+  get '/*show', to: 'catches_all#show'
 end

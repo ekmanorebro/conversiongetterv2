@@ -1,0 +1,30 @@
+
+  
+  <div class="container">
+
+      <header class="blue-background">
+        <figure>
+          <a href="<%= root_path %>"><%= image_tag("conversion-getter-logo.png") %></a>
+        </figure>
+        <nav>
+          <ul>
+            <li><a href="<%= root_path %>">HOME</a></li>
+            <li><a href="/#services">SERVICES</a></li>
+            <li><a href="/#contact">CONTACT</a></li>
+            <li><a href="<%= mm_path %>"><button class="m-m-btn">MODERN MARKETING</button></a></li>
+            <li><a href="/#contact"><button class="quote-btn">GET QUOTE</button></a></li>
+          </ul>
+        </nav>  
+      </header>
+
+      <!-- Possible main here with either login information or a did you know we offer marketing services ... read more -->
+    
+      <section class="grey-background" style="height: 200px">
+
+        <h2>Sorry, we couldn't find that page.</h2>
+        
+      </section>
+
+    <%= render(partial: "shared/footer") %>
+
+  </div>

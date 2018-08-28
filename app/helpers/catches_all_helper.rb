@@ -1,0 +1,2 @@
+module CatchesAllHelper
+end
