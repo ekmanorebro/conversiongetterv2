@@ -297,6 +297,8 @@ nav ul li {
   background-color: #e48e1e;
   color: white;
   width: 350px;
+  font-family: 'Nunito';
+  cursor: pointer;
   border-bottom: 10px solid #c77d1c;
 }
 
@@ -473,6 +475,7 @@ section h2 {
     border: 0;
     height: 100px;
     font-size: 16px;
+    font-family: 'Nunito';
     border-bottom: 3px solid #c1c1c1;
     display: block;
     margin: 0 auto;
@@ -487,9 +490,11 @@ section h2 {
     border-bottom: 10px solid #c77d1c;
     color: white;
     font-size: 16px;
+    font-family: 'Nunito';
     border-radius: 20px;
     display: block;
     margin: 0 auto;
+    cursor:pointer;
   }
 
 .submit:hover {
@@ -824,6 +829,20 @@ footer {
 /* ##### BIG DESKTOP ##### */
 
 @media (min-width: 1800px) {
-  /* What side was made for */
+  
+  section {
+    padding: 60px 20%;
+  }
+
+  header {
+    padding: 20px 20%;
+    grid-template-columns: 200px auto;
+  }
+
+  footer {
+    padding: 60px 20%;
+  }
+
+
 }
 
