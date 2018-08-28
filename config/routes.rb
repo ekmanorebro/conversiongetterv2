@@ -12,13 +12,13 @@ Rails.application.routes.draw do
   get '/special', to: 'static_pages#special', as: 'special'
   get '/dream-scenario', to: 'static_pages#dream', as: 'dream'
   get '/modern-marketing/course', to: 'static_pages#mmc', as: 'mmc'
-
+  get '/contact/thank-you', to: 'static_pages#contact', as: 'contact'
 
   post '/', to: 'static_pages#create', as: "create_contact"
 
-
   get '/modern-marketing', to: 'emails#new', as: 'mm'
   post '/modern-marketing', to: 'emails#create', as: 'create_email'
+  get '/modern-marketing/thank-you', to: 'emails#show', as: 'thank_you'
 
   get '/*show', to: 'catches_all#show'
 end
