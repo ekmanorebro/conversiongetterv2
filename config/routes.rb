@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  
+  devise_for :admins, path: '', path_names: { sign_in: 'login', sign_out: 'logout' }
+
+  get 'admin', to: 'admins#index'
+
   root(to: 'static_pages#index')
   get '/terms', to: 'static_pages#terms'
   get '/privacy', to: 'static_pages#privacy'

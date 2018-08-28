@@ -1,0 +1,23 @@
+<section class="blue-background">
+<h1 style="color: yellow;">Admin Dashboard</h1>
+<p><%= link_to("Logout", destroy_admin_session_path, method: :delete) %></p>
+<section>
+<h2 style="text-align: left;">Contacts (<%= @contacts.count %>)</h2>
+<% @contacts.each do |c| %>
+  <p><b>Name:</b> <%= c.name %></p>
+  <p><b>Subject:</b> <%= c.subject %></p>
+  <p><b>Email:</b> <%= c.email %></p>
+  <p><b>Service:</b> <%= c.service %></p>
+  <p><b>Budget:</b> <%= c.budget %></p>
+  <p><b>Body:</b> <%= c.body %></p>
+  <hr>
+<% end %>
+</section>
+<section class="grey-background"> 
+<h2 style="text-align: left;">Emails (<%= @emails.count %>)</h2>
+<ul>
+<% @emails.each do |e| %>
+  <li><%= e.email %></li>
+<% end %>
+</ul>
+</section>
