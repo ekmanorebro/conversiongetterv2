@@ -728,8 +728,6 @@ footer {
 .header-container {
   background-color: #33374c;
   width: 90%;
-  height: 50px;
-  position: relative;
   padding: 20px 5%;
   margin: 0;
 }
@@ -737,18 +735,13 @@ footer {
 .header-logo {
   float: left;
   width: 30%;
-  transform: translateY(-50%);
-  top: 50%;
-  position: relative;
+  height:36px;
   background-color: green;
 }
 
 .header-nav {
   float: left;
   width: 70%;
-  transform: translateY(-50%);
-  top: 50%;
-  position: relative;
   background-color: red;
 }
 
@@ -765,7 +758,12 @@ footer {
   font-size: 12px;
   font-weight: bold;
   cursor: pointer;
+  line-height: 26px;
 
+}
+
+.header-nav button {
+  line-height: 15px;
 }
 
 .b-container {
