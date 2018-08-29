@@ -880,7 +880,7 @@ footer {
 
 
 .b-container {
-    padding: 50px 5%;
+    padding: 20px 5% 50px 5%;
     }
 
 }
@@ -895,7 +895,7 @@ footer {
 
 
   .b-container {
-    padding: 50px 5%;
+    padding: 20px 5% 50px 5%;
     }
   
   .header-logo {
@@ -968,17 +968,16 @@ footer {
   
 
   .header-container {
-    padding: 0 2%;
+    padding: 0 5%;
   }
 
 
   .b-container {
-    padding: 50px 5%;
+    padding: 20px 5% 50px 5%;
     }
   
   .header-logo {
   float: left;
-  background-color:red;
   width: 45%;
   top: 50%;
   transform: translateY(-50%);
@@ -989,7 +988,6 @@ footer {
 
 .header-nav {
   float: left;
-  background-color:green;
   width: 55%;
   top: 50%;
   transform: translateY(-50%);
@@ -1032,12 +1030,12 @@ footer {
 
 
   .header-container {
-    padding: 40px 18%;
+    padding: 40px 10%;
   }
 
 
   .b-container {
-    padding: 50px 5%;
+    padding: 20px 5% 50px 5%;
     }
   
   .header-logo {
@@ -1065,8 +1063,6 @@ footer {
 
 
 
-
-  /* What side was made for */
 }
 
 /* ##### BIG DESKTOP ##### */
@@ -1079,7 +1075,7 @@ footer {
 
 
   .b-container {
-    padding: 80px 5%;
+    padding: 50px 5% 80px 5%;
     }
   
   .header-logo {

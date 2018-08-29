@@ -1,19 +1,19 @@
   <div class="container">
 
-      <header class="blue-background">
-        <figure>
-          <a href="<%= root_path %>"><%= image_tag("conversion-getter-logo.png") %></a>
-        </figure>
-        <nav>
+      <div class="header-container">
+        <div class="header-logo">
+          <a href="<%= root_path %>"><%= image_tag("conversion-getter-logo.png", class: 'big-logo') %></a>
+          <a href="<%= root_path %>"><%= image_tag("small-logo.png", class: 'small-logo') %></a>
+        </div>
+        <div class="header-nav">
           <ul>
             <li><a href="<%= root_path %>">HOME</a></li>
             <li><a href="/#services">SERVICES</a></li>
             <li id="contact-link">CONTACT</li>
-            <li><a href="<%= mm_path %>"><button class="m-m-btn">MODERN MARKETING</button></a></li>
-            <li><button class="quote-btn">GET QUOTE</button></li>
+            <button class="quote-btn">GET QUOTE</button>
           </ul>
-        </nav>  
-      </header>
+        </div>
+      </div>
     
       <section class="social-media-presentation">
 
