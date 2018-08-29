@@ -732,7 +732,7 @@ footer {
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
-  padding: 0 5%;
+  padding: 20px 5%;
 }
 
 .header-logo {
@@ -742,7 +742,6 @@ footer {
   transform: translateY(-50%);
   position: relative;
   top: 50%;
-
 }
 
 .header-nav {
@@ -767,6 +766,7 @@ footer {
   font-size: 12px;
   font-weight: bold;
   cursor: pointer;
+
 }
 
 .b-container {
@@ -983,7 +983,7 @@ footer {
 
 
   .header-container {
-    padding: 0 5%;
+    padding: 20px 5%;
   }
 
 
@@ -1063,7 +1063,7 @@ footer {
 }
 
   .header-container {
-    padding: 0 5%;
+    padding: 20px 5%;
   }
 
 
@@ -1130,7 +1130,7 @@ footer {
 }
 
   .header-container {
-    padding: 40px 10%;
+    padding: 20px 10%;
   }
 
 
@@ -1174,7 +1174,7 @@ footer {
 }
 
     .header-container {
-    padding: 40px 20%;
+    padding: 20px 20%;
   }
 
 
