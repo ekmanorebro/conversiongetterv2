@@ -745,7 +745,7 @@ footer {
   }
 
   figure {
-    height: 36px;
+    display: none;
   }
 
   header {
