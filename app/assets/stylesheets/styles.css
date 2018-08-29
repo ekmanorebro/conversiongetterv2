@@ -753,6 +753,12 @@ footer {
     display: none;
   }
 
+  header {
+    padding: 20px 2%;
+    /* grid-template-columns: 48px auto; */
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   figure {
     height:36px;
     width: 48px;
@@ -768,11 +774,6 @@ footer {
 
   .small-logo {
     display: block;
-  }
-
-  header {
-    padding: 20px 2%;
-    grid-template-columns: 48px auto;
   }
 
   .fixed {
