@@ -724,9 +724,13 @@ footer {
     display: none;
   }
 
+  figure {
+    height: 36px;
+  }
+
   header {
     padding: 20px 2%;
-    grid-template-columns: 200px auto;
+    grid-template-columns: 50px auto;
   }
 
   .fixed {
