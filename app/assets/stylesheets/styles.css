@@ -170,6 +170,7 @@ header {
 figure {
   margin: 0;
   align-self: center;
+  width: 250px;
   height: 36px;
   background-color: blue;
 }
@@ -756,6 +757,7 @@ footer {
 
   figure {
     height:36px;
+    width: 48px;
   }
 
   .big-logo {
