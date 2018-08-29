@@ -177,6 +177,14 @@ figure img {
   margin: 0;
 }
 
+.big-logo {
+  display: block;
+}
+
+.small-logo {
+  display: none;
+}
+
 nav {
   align-self: center;
 }
@@ -745,12 +753,20 @@ footer {
   }
 
   figure {
+    height:36px;
+  }
+
+  .big-logo {
     display: none;
+  }
+
+  .small-logo {
+    display: block;
   }
 
   header {
     padding: 20px 2%;
-    grid-template-columns: 50px auto;
+    grid-template-columns: 48px auto;
   }
 
   .fixed {
