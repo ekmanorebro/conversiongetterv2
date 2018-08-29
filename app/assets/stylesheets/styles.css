@@ -717,37 +717,23 @@ footer {
 @media (max-width: 599px) {
 
   .lead-select {
-    width: 500px;
-    height: 48px;
-    text-indent: 10px;
-    border: 0;
-    font-size: 18px;
-    font-weight: bold;
-    font-family: 'Nunito';
-    border-bottom: 3px solid #c1c1c1;
+    width: 100%;
   }
 
   .input-item {
-    width: 500px;
-    padding: 15px;
-    box-sizing: border-box;
-    border: 0;
-    font-size: 16px;
-    border-bottom: 3px solid #c1c1c1;
-    display: block;
-    margin: 0 auto;
+    width: 100%;
   }
   
   .input-select {
-    width: 100px;
+    width: 100%;
   }
 
   .input-body {
-    width: 100px;
+    width: 100%;
   }
 
   .submit {
-    width: 100px;
+    width: 100%;
   }
 
   .item-container {
