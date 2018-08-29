@@ -1097,6 +1097,11 @@ footer {
 
 @media (min-width: 1200px) and (max-width: 1799px) {
 
+  .header-container {
+    padding: 20px 15%;
+  }  
+
+
   .item-container {
     justify-content: space-evenly;
   }
@@ -1117,6 +1122,10 @@ footer {
 /* ##### BIG DESKTOP ##### */
 
 @media (min-width: 1800px) {
+
+      .header-container {
+    padding: 20px 20%;
+  }   
 
       .social-media-presentation {
   padding: 80px 20%;
