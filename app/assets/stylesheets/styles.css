@@ -148,6 +148,7 @@ header {
   display: grid;
   grid-template-columns: 250px auto;
   grid-template-rows: 1fr;
+  width: 100%;
   padding: 20px 10%;
   grid-gap: 5px;
 }
