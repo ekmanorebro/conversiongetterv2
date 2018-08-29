@@ -150,6 +150,7 @@ header {
   grid-template-rows: auto;
   padding: 20px 10%;
   grid-gap: 5px;
+  background-color: red;
 }
 
 .fixed {
@@ -170,6 +171,7 @@ figure {
   margin: 0;
   align-self: center;
   height: 36px;
+  background-color: blue;
 }
 
 figure img {
@@ -186,6 +188,7 @@ figure img {
 
 nav {
   align-self: center;
+  background-color: green;
 }
 
 nav a {
