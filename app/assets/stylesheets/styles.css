@@ -740,13 +740,11 @@ footer {
   float: left;
   width: 30%;
   height:36px;
-  background-color: green;
 }
 
 .header-nav {
   float: left;
   width: 70%;
-  background-color: red;
 }
 
 .header-nav ul {
