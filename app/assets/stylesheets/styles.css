@@ -150,7 +150,7 @@ header {
   grid-template-rows: auto;
   padding: 20px 10%;
   grid-gap: 5px;
-  background-color: red;
+  background-color:;
 }
 
 .fixed {
@@ -172,7 +172,7 @@ figure {
   align-self: center;
   width: 250px;
   height: 36px;
-  background-color: blue;
+  background-color:;
 }
 
 figure img {
@@ -758,6 +758,10 @@ footer {
   figure {
     height:36px;
     width: 48px;
+  }
+
+  nav {
+    width: auto;
   }
 
   .big-logo {
