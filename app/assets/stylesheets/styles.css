@@ -755,7 +755,7 @@ footer {
   header {
     padding: 20px 2%;
     /* grid-template-columns: 48px auto; */
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 20% 80%;
   }
 
   figure {
@@ -765,6 +765,8 @@ footer {
 
   nav {
     width: auto;
+    font-size: 12px;
+    text-align: left;
   }
 
   .big-logo {
