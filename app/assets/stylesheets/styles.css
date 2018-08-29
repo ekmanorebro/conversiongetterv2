@@ -150,7 +150,6 @@ header {
   grid-template-rows: auto;
   padding: 20px 10%;
   grid-gap: 5px;
-  background-color:;
 }
 
 .fixed {
@@ -172,7 +171,6 @@ figure {
   align-self: center;
   width: 250px;
   height: 36px;
-  background-color:;
 }
 
 figure img {
