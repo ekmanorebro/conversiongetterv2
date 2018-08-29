@@ -1,31 +1,30 @@
   <div class="container">     
-    <div class="big-header round">
-      
-      <header>
-        <figure>
-          <a href="<%= root_path %>"><%= image_tag("conversion-getter-logo.png") %></a>
-        </figure>
-        <nav>
+
+
+
+
+<div class="header-container">
+        <div class="header-logo">
+          <a href="<%= root_path %>"><%= image_tag("conversion-getter-logo.png", class: 'big-logo') %></a>
+          <a href="<%= root_path %>"><%= image_tag("small-logo.png", class: 'small-logo') %></a>
+        </div>
+        <div class="header-nav">
           <ul>
             <li><a href="<%= root_path %>">HOME</a></li>
-            <li id="services-link">SERVICES</li>
-            <li id="contact-link">CONTACT</li>
-            <li><a href="<%= mm_path %>"><button class="m-m-btn">MODERN MARKETING</button></a></li>
-            <li><button class="quote-btn">GET QUOTE</button></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <a href="#contact"><button class="quote-btn">GET QUOTE</button></a>
           </ul>
-        </nav>  
-      </header>
-
-      <main class="solo">
-        <div class="billboard-container center">
-          <h4 style="margin-bottom: 0; color: #e48e1e;">END OF SUMMER SPECIAL</h4>
-          <h1>GET OUR 3 MAIN MARKETING<br> SERVICES FOR THE PRICE OF 1.</h1>
-          <button class="quote-btn">GET QUOTE</button>
-          <button class="audit-btn">FREE AUDIT</button>
         </div>
-      </main>
+      </div>
 
-    </div>
+      <div class="b-container">
+        <h4 style="margin-bottom: 0; color: #e48e1e;">END OF SUMMER SPECIAL</h4>
+          <h1>GET OUR 3 MAIN MARKETING<br> SERVICES FOR THE PRICE OF 1.</h1>
+          <a href="#contact"><button class="quote-btn">GET QUOTE</button></a>
+      </div>
+
+
       
     <section class="grey-background" id="services">
         <div class="service-container">
@@ -33,7 +32,7 @@
             <h4>SERVICE #1</h4>
             <h2>ADVERTISING</h2>
              <p>We help place your offer in front of the right people, with a strategy that is designed to build the tension people should feel from the absence of your product/service.</p>
-             <button class="quote-btn">GET QUOTE</button>
+             <a href="#contact"><button class="quote-btn">GET QUOTE</button></a>
             <a href="<%= advertising_path %>"><button class="read-more-btn">READ MORE</button></a>
           </div>
           <div class="service-item">
@@ -48,7 +47,7 @@
             <h4>SERVICE #2</h4>
             <h2>SOCIAL MEDIA<BR>MANAGEMENT</h2>
             <p>We help manage your social media accounts and by doing so we'll build brand awareness, and drive business — while you focus on operating your business.</p>
-            <button class="quote-btn">GET QUOTE</button>
+            <a href="#contact"><button class="quote-btn">GET QUOTE</button></a>
             <a href="<%= smm_path %>"><button class="read-more-btn">READ MORE</button></a>
           </div>
           <div class="service-item">
@@ -63,7 +62,7 @@
             <h4>SERVICE #3</h4>
             <h2>SEARCH-ENGINE-<BR>OPTIMIZATION</h2>
             <p>We help optimize your website and build high-quality backlinks to increase your rankings in search engines to help people find your business organically.</p>
-            <button class="quote-btn">GET QUOTE</button>
+            <a href="#contact"><button class="quote-btn">GET QUOTE</button></a>
             <a href="<%= seo_path %>"><button class="read-more-btn">READ MORE</button></a>
           </div>
           <div class="service-item">

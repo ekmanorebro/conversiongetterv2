@@ -18,25 +18,24 @@
         </div>
       </div>
 
-      <main class="dual">
 
-        <div class="billboard-container">
+      <div class="b-container">
+        <div class="t-container">
           <h1>Marketing Content<br>People Pay For.</h1>
           <h3>It's Yours for <span class="highlight">FREE</span>.</h3>
         </div>
-
-        <div class="optin-container">
+        <div class="i-container">
           <%= form_for(@email, url: mm_path) do |f| %>
           <%= f.text_field(:email, class: "input", placeholder: "your@email.com") %>
           <%= f.submit("GET FREE INSTANT ACCESS", class: "submit-btn") %>
         <% end %>
         <p style="color: white; font-size: 12px; text-align: center;">100% Privacy. We don't Spam. Unsubscribe at any time.</p>
         </div>
+      </div>
 
-      </main>
+
+
     
-    </div>
-
     <section class="grey-background">
       <h2>MODERN MARKETING FUNDAMENTALS</h2>
       <h3 class="subheadline">LAST UPDATED: AUGUST OF 2018</h3>

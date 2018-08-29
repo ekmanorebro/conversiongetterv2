@@ -299,9 +299,10 @@ nav ul li {
   border: 0;
   background-color: white;
   width: 350px;
-  margin-bottom: 10px;
   font-size: 16px;
   border-bottom: 3px solid #c1c1c1;
+  display: block;
+  margin: 0 auto;
 }
 
 .submit-btn {
@@ -314,6 +315,8 @@ nav ul li {
   font-family: 'Nunito';
   cursor: pointer;
   border-bottom: 10px solid #c77d1c;
+  display: block;
+  margin: 0 auto;
 }
 
 /* ##### SECTION ##### */
@@ -786,12 +789,67 @@ footer {
   display: inline-block;
 }
 
+.t-container {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  padding-top: 20px;
+}
+
+.i-container {
+  display:inline-block;
+  width: 50%;
+  float: left;
+  padding-top: 20px;
+}
+
+.t-container h3 {
+  color: white;
+}
 
 /* ##### RESPONSIVE ##### */
 
 /* ##### PHONE ##### */
 
 @media (max-width: 599px) {
+
+.course-preview-container {
+  padding: 0 5%;
+
+}
+
+
+  .input {
+  width: 100%;
+
+}
+
+.submit-btn {
+
+  width: 100%;
+
+}
+  
+  .t-container {
+  display: block;
+  width: 100%;
+  float: left;
+  padding-top: 20px;
+}
+
+.i-container {
+  display:block;
+  width: 100%;
+  float: left;
+  padding-top: 20px;
+}
+
+  .social-media-container ul li {
+  display: inline-block;
+  font-size: 30px;
+  padding: 10px;
+}
+
 
   .lead-select {
     width: 100%;
@@ -889,6 +947,41 @@ footer {
 
 @media (min-width: 600px) and (max-width: 899px) {
 
+.course-preview-container {
+  padding: 0;
+
+}
+
+
+  .input {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+}
+
+.submit-btn {
+
+  display: block;
+  margin: 0 auto;
+
+}
+  
+  .t-container {
+  display: block;
+  width: 100%;
+  float: left;
+  padding-top: 20px;
+}
+
+.i-container {
+  display:block;
+  width: 100%;
+  float: left;
+  padding-top: 20px;
+}
+
+
   .header-container {
     padding: 0 5%;
   }
@@ -965,7 +1058,9 @@ footer {
 
 @media (min-width: 900px) and (max-width: 1199px) {
 
-  
+  .social-media-presentation {
+  padding: 80px 20%;
+}
 
   .header-container {
     padding: 0 5%;
@@ -1016,8 +1111,7 @@ footer {
   }
 
   .item-container {
-    grid-template-columns: repeat(3, 300px);
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 
 
@@ -1027,7 +1121,13 @@ footer {
 
 @media (min-width: 1200px) and (max-width: 1799px) {
 
+  .item-container {
+    justify-content: space-evenly;
+  }
 
+  .social-media-presentation {
+  padding: 80px 20%;
+}
 
   .header-container {
     padding: 40px 10%;
@@ -1068,6 +1168,10 @@ footer {
 /* ##### BIG DESKTOP ##### */
 
 @media (min-width: 1800px) {
+
+      .social-media-presentation {
+  padding: 80px 20%;
+}
 
     .header-container {
     padding: 40px 20%;
