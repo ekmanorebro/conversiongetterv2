@@ -727,30 +727,29 @@ footer {
 
 .header-container {
   background-color: #33374c;
-  width: 100%;
-  height: 150px;
-  overflow: hidden;
+  width: 90%;
+  height: 50px;
   position: relative;
-  box-sizing: border-box;
   padding: 20px 5%;
+  margin: 0;
 }
 
 .header-logo {
   float: left;
-  width: 15%;
-  top: 50%;
+  width: 30%;
   transform: translateY(-50%);
-  position: relative;
   top: 50%;
+  position: relative;
+  background-color: green;
 }
 
 .header-nav {
   float: left;
-  width: 85%;
-  top: 50%;
+  width: 70%;
   transform: translateY(-50%);
-  position: relative;
   top: 50%;
+  position: relative;
+  background-color: red;
 }
 
 .header-nav ul {
@@ -812,6 +811,10 @@ footer {
 /* ##### PHONE ##### */
 
 @media (max-width: 599px) {
+
+  .header-nav button {
+    display: none;
+  }
 
 .course-preview-container {
   padding: 0 5%;
@@ -932,9 +935,6 @@ footer {
   } 
 
 
-  .header-nav button {
-  display: none;
-}
 
 
 .b-container {
@@ -946,6 +946,20 @@ footer {
 /* ##### TABLET ##### */
 
 @media (min-width: 600px) and (max-width: 899px) {
+
+
+.header-nav button {
+  display: none;
+}
+
+.header-nav {
+  width: 50%;
+}
+
+.header-logo {
+  width: 50%;
+}
+
 
 .course-preview-container {
   padding: 0;
@@ -982,37 +996,11 @@ footer {
 }
 
 
-  .header-container {
-    padding: 20px 5%;
-  }
-
-
   .b-container {
     padding: 20px 5% 50px 5%;
     }
   
-  .header-logo {
-  float: left;
-  width: 50%;
-  top: 50%;
-  transform: translateY(-50%);
-  position: relative;
-  top: 50%;
 
-}
-
-.header-nav {
-  float: left;
-  width: 50%;
-  top: 50%;
-  transform: translateY(-50%);
-  position: relative;
-  top: 50%;
-}
-
-.header-nav button {
-  display: none;
-}
 
   header {
     padding: 20px 5%;
@@ -1058,43 +1046,22 @@ footer {
 
 @media (min-width: 900px) and (max-width: 1199px) {
 
+   .header-nav {
+  width: 50%;
+}
+
+.header-logo {
+  width: 50%;
+} 
+
+
   .social-media-presentation {
   padding: 80px 20%;
 }
 
-  .header-container {
-    padding: 20px 5%;
-  }
-
-
   .b-container {
     padding: 20px 5% 50px 5%;
     }
-  
-  .header-logo {
-  float: left;
-  width: 45%;
-  top: 50%;
-  transform: translateY(-50%);
-  position: relative;
-  top: 50%;
-
-}
-
-.header-nav {
-  float: left;
-  width: 55%;
-  top: 50%;
-  transform: translateY(-50%);
-  position: relative;
-  top: 50%;
-}
-
-.header-nav button {
-  display: inline-block;
-}
-
-
 
 
   header {
@@ -1129,38 +1096,11 @@ footer {
   padding: 80px 20%;
 }
 
-  .header-container {
-    padding: 20px 10%;
-  }
-
 
   .b-container {
     padding: 20px 5% 50px 5%;
     }
   
-  .header-logo {
-  float: left;
-  width: 45%;
-  top: 50%;
-  transform: translateY(-50%);
-  position: relative;
-  top: 50%;
-
-}
-
-.header-nav {
-  float: left;
-  width: 55%;
-  top: 50%;
-  transform: translateY(-50%);
-  position: relative;
-  top: 50%;
-}
-
-.header-nav button {
-  display: inline-block;
-}
-
 
 
 }
@@ -1173,37 +1113,10 @@ footer {
   padding: 80px 20%;
 }
 
-    .header-container {
-    padding: 20px 20%;
-  }
-
-
   .b-container {
     padding: 50px 5% 80px 5%;
     }
-  
-  .header-logo {
-  float: left;
-  width: 45%;
-  top: 50%;
-  transform: translateY(-50%);
-  position: relative;
-  top: 50%;
 
-}
-
-.header-nav {
-  float: left;
-  width: 55%;
-  top: 50%;
-  transform: translateY(-50%);
-  position: relative;
-  top: 50%;
-}
-
-.header-nav button {
-  display: inline-block;
-}
 
   
   section {
