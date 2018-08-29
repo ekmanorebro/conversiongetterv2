@@ -756,6 +756,7 @@ footer {
     padding: 20px 2%;
     /* grid-template-columns: 48px auto; */
     grid-template-columns: 20% 80%;
+    grid-gap: 0;
   }
 
   figure {
