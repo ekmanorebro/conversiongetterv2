@@ -970,6 +970,28 @@ footer {
 }
 
 
+
+.lead-select {
+    width: 100%;
+  }
+
+  .input-item {
+    width: 100%;
+  }
+  
+  .input-select {
+    width: 100%;
+  }
+
+  .input-body {
+    width: 100%;
+  }
+
+  .submit {
+    width: 100%;
+  }
+
+
 .course-preview-container {
   padding: 0;
 
