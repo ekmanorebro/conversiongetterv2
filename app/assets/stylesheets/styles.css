@@ -1025,10 +1025,12 @@ footer {
   }
 
   section {
-    padding: 60px 15%;
+    padding: 60px 25%;
   }
 
- 
+  .item-container {
+    grid-template-columns: 1fr;
+  }
 
   .campaign-container img {
     width: 100%;
